@@ -1,0 +1,15 @@
+package triangle;
+
+public class _5_4 {
+
+	public static void main(String[] args) {
+		int temp = 0;
+		for(int i = 0; i < 3; i ++){
+			for(int k = 3; k >= 3 - i; k--){
+				temp = k + temp;
+			}System.out.println(temp);
+		}		
+		}
+
+	}
+
